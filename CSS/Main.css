@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+            font-family: mainfont;
+            src: url('./Fonts/IRANSans-Light-web.ttf') format('truetype'), url('./Fonts/IRANSans-Light-web.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: mainfont;
+            src: url('./Fonts/IRANSans-Bold-web.ttf') format('truetype'), url('./Fonts/IRANSans-Bold-web.woff   ') format('woff');
+            font-weight: bold;
+            font-style: normal;
+        }
+		
+		
+		
+       .property-item_head label {
+            border-bottom: none;
+            color: #00F;
+            font-size: 20px;
+        }
+		
+		
+		
+       .about-us {
+            text-align: justify;
+            font-size: 17px !important;
+            padding-left: 0;
+            color: #585858;
+            line-height: 30px;
+        }
+
+
+        .container {
+            width: 210mm;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            padding: 0;
+            background: #f7f7f7;
+            height: 100%;
+            position: relative;
+       }
+
+        .lgbox {
+            width: 100%;
+            float: right;
+            background-color: #ffffff;
+            height: 100%;
+            font-family: mainfont !important;
+        }
+
+        div.user-image {
+            box-shadow: none;
+            margin-right: 25px;
+            margin-top: 20px;
+            width: 80px;
+            height: 110px;
+            display: inline-block;
+            float: right;
+       }
+
+        .person-information {
+            width: 80%;
+            height: 185px;
+            margin-top: 10px;
+            display: inline-block;
+            float: left;
+            margin: 0;
+            position: relative;
+            background-color: #309;
+          /*  background-image: url(../Image/header.png);*/
+            overflow: hidden;  
+        }
+
+        .person-information:before {
+            content: '';
+            position: absolute;
+            width: 62px;
+            height: 100%;
+            background: #ffffff;
+            -webkit-transform: skew(-20deg);
+            right: -19px;   
+        }
+
+        .person-information:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            width: 101%;
+            height: 58px;
+            background: #ffffff;
+            bottom: -28px;
+            -webkit-transform: rotate(-5deg);
+        }
+
+        .person-information h1 {
+            color: #ced4d9;
+            padding-right: 60px;
+            margin-top: 8px;
+            font-size: 20px;
+            display: inline-block;
+            width: 296px;
+            margin-bottom: 0px;
+        }
+        .property-item_head {
+            text-align: right;
+            width: 100%;
+            border-bottom: none;
+            position: relative;
+            padding-right: 10px;
+            border-bottom: 1px dashed #afafaf;
+            padding-top: 18px;
+        }
+        .property-item {
+            padding: 0 50px 5px;
+            width: 87%;
+       }
+Footer
